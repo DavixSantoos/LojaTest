@@ -4,7 +4,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+.Menu{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #4682b2;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.Menu>ul{
+    list-style: none;       
+    padding: 0;             
+    margin: 0;
+    display: flex;
+    list-style: none;
+    flex-direction: row; 
+    align-items: baseline;   
+    gap: 30px;    
 
+}
 h1
 {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -12,14 +32,18 @@ h1
     padding: 10px 70px 40px 30px;
     margin: auto;
     font-size: 40px;  
+    display: flex;
+    justify-content: center;
 }
-nav
-{
+.SobreNos{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:white;
     font-size: 13px;
-    padding: 0px 1600px ;
+    display: flex;
+    margin: 10px;
+    flex-direction: row-reverse;
 }
+
 header
 {
     background-color: #4682b2;
