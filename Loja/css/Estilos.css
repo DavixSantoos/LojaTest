@@ -25,6 +25,18 @@
     gap: 30px;    
 
 }
+.Produtos{
+    display: flex;
+    justify-content: flex-start; 
+    padding-left: 20px; 
+}
+.Produtos>h1{
+    color: black;
+   text-align: left;
+   margin-left: 1px;
+   font-size: 30px;
+   
+}
 h1
 {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
